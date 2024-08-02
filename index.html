@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!--versao do html que estamos usando - versão5 -->
+<html lang="pt-br"> <!-- escolher a linguagem do site -->
+
+    <head> <!-- cabeça (onde coloco as configurações da minha pagina/não aparece) -->
+        <meta charset="UTF-8"> <!--tabela de caracteres que vai fazer exibição do nosso site -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- detecção de  config da tela (tipo de tela que usamos. celular/tablet/pc) -->
+        <title>Portfólio Vinicius</title> <!-- titulo da aba no meu site -->
+        <link rel="stylesheet" href="styles/style.css">  <!-- caminho que importa estilo do css-->
+    </head> 
+
+    <body> <!-- corpo do meu site - parte visual do site -->
+        <header> <!-- cabeçalho -->
+            <nav class="cabecalho"> <!-- Menu de navegação principal do site (nav define bloco de link de navegaçaõ)-->
+                <a class="cabecalho_menu" href="index.html"> <!-- link para a pagina inicial-->
+                    Home </a>
+                <a class="cabecalho_menu" href="about.html" target="_blank"> <!-- link para a pagina sobre mim --> <!-- blank abre a pagina em uma nova guia-->
+                    Sobre mim </a>   
+                <a class="cabecalho_menu" href="curriculo.html" target="_blank"> <!-- link para a pagina do meu curriculo-->
+                    Curriculo </a>  
+            </nav>
+        </header>
+
+        <main class="apresentacao"> <!-- conteudo principal do site -->
+            <section class="apresentacao_conteudo"> <!-- seção de texto (caixa texto (coluna esquerda)) -->
+                <h1 class="pz_titulo">Eleve seu negócio digital a outro nível
+                    <strong class="destaque_t"> com um Front-end de qualidade!</strong> <!-- strong serve para destacar o texto -->
+                </h1> <!-- serve pra indicar titulo ou algo importante(nivel 1)(só uma tag h1 por pagina) -->
+        
+                <p class="pz_texto">Olá! Sou Vinicius, estou no 3° Período de engenharia de controle e automação.
+                    Estou aprendendo programação web. Vamos conversar?
+                </p> <!-- usado para definir um parágrafo -->
+                
+            <div class="links">  <!-- divisão que contém os links para redes sociais -->
+
+                <h2 class="apresentação_titulo_link"> Acesse minhas redes sociais:
+                </h2>  <!-- algo importante(nivel 2) -->
+
+                    <a href="https://www.instagram.com/" target="_blank" class="button"> <!-- link para o GitHub -->
+                    <img src="instagram.png"> <!-- ícone do instagram -->
+                    Instagram </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" class="button"> <!-- link para o GitHub -->
+                    <img src="linkedin.png"> <!-- ícone do LinkedIn --> 
+                    Linkedin </a>
+
+                    <a href="https://github.com/" target="_blank" class="button"> <!-- link para o GitHub -->
+                    <img src="github.png"> <!-- ícone do Github -->
+                    GitHub </a>
+
+            </div> 
+            </section>
+
+            <img src="eu.png" alt="Essa é minha foto" class= "perfil-imagem"> <!-- caixa de imagem (coluna direita) -->
+
+        </main>
+
+        <footer class="rodape"> <!-- Rodape do site -->
+            Desenvolvido por Vinicius. 
+        </footer>
+
+    </body>
+
+</html>
